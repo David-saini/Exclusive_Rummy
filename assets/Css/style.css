@@ -133,10 +133,6 @@
     right: 20px;
 }
 
-.text_white {
-    color: white !important;
-}
-
 .nav_bg {
     background: rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(26px);
@@ -172,13 +168,17 @@
     padding: 13px 46px;
     border-radius: 41px;
     background: linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%);
-    color: black;
+    color: #00141b;
     transition: all linear 300ms;
 }
 
 .btn_2:hover {
     background: linear-gradient(180deg, #51C8EF -13.72%, #7AF57A 102.02%);
     box-shadow: 0px 0px 10px 0px rgb(5, 11, 3);
+}
+
+.max-w-700px {
+    max-width: 500px !important;
 }
 
 .rotate {
@@ -374,7 +374,7 @@
 /* accordion */
 .accordion-item {
     border-radius: 6px !important;
-    border: 0.5px solid rgba(255, 255, 255, 0.5) !important;
+    border: 0.5px solid #80898d !important;
 }
 
 .accordion-body {
@@ -456,6 +456,13 @@
 
 .max-w-385px {
     max-width: 385px;
+}
+
+.ellipse_12 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%) !important;
 }
 
 .ellipse_26 {
@@ -550,6 +557,26 @@
     background: transparent !important;
 }
 
+.mt-32 {
+    margin-top: 32px;
+}
+
+.bg_color_1 {
+    background-color: #00141b !important;
+}
+
+@media (max-width:1280px) {
+    .white_bg_img {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .white_bg_img_2 {
+        background-position: center;
+        background-size: cover;
+    }
+}
+
 @media (max-width:1200px) {
     .w-273px {
         max-width: 240px !important;
@@ -570,9 +597,9 @@
         left: -25%;
     }
 
-    .white_bg_img {
-        background-position: center;
-        background-size: cover;
+    .py_100px {
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 }
 
@@ -621,11 +648,6 @@
         right: 4%;
         width: 70px;
     }
-
-    .white_bg_img_2 {
-        background-position: center;
-        background-size: cover;
-    }
 }
 
 @media (max-width:576px) {
@@ -647,5 +669,14 @@
     .ludo_cube {
         right: 4%;
         width: 60px;
+    }
+
+    .pt-10 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .bg_color_1 {
+        background-color: transparent !important;
     }
 }
