@@ -217,13 +217,17 @@
 }
 
 .choose_card {
-    border: 1px solid transparent;
+    border: 1px solid #51C8EF;
     border-radius: 16px;
     background: linear-gradient(307deg, rgba(81, 200, 239, 0.04) -13.72%, rgba(122, 245, 122, 0.04) 102.02%);
     backdrop-filter: blur(16px);
     max-width: 374px;
     width: 100%;
     padding: 24px 56px;
+}
+
+.mt_-15px {
+    margin-top: -15px !important;
 }
 
 .all_rummy_gradient {
@@ -565,6 +569,17 @@
     background-color: #00141b !important;
 }
 
+.scale {
+    scale: 1 !important;
+    transform: translatey(0px) !important;
+    transition: all linear 300ms;
+}
+
+.scale:hover {
+    scale: 1.1 !important;
+    transform: translatey(-10px) !important;
+}
+
 @media (max-width:1280px) {
     .white_bg_img {
         background-position: center;
@@ -574,6 +589,11 @@
     .white_bg_img_2 {
         background-position: center;
         background-size: cover;
+    }
+
+    .pt-10 {
+        padding-top: 200px;
+        padding-bottom: 180px;
     }
 }
 
