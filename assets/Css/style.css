@@ -503,7 +503,7 @@
 }
 
 .ellipse_29 {
-    top: -40%;
+    top: -35%;
     left: 0;
 }
 
@@ -638,6 +638,15 @@
         max-width: 200px !important;
     }
 
+    .ellipse_22 {
+        display: none;
+    }
+
+    .ellipse_29 {
+        height: 600px;
+        top: -19%;
+    }
+
     .spinner_gradient {
         top: -17%;
     }
@@ -728,5 +737,9 @@
 
     .bg_color_1 {
         background-color: transparent !important;
+    }
+
+    .ellipse_29 {
+        display: none !important;
     }
 }
